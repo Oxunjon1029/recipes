@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(lightgreen,lightblue);
+
+}
+
+
+.search-form{
+  min-height: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+ 
+}
+.form-bar{
+  width: 50%;
+  border: none;
+  padding: 1rem;
+  outline: none;
+border-radius: 1.2rem;
+margin-right: 0.6rem;
+color:red;
+}
+.form-button{
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 1.2rem;
+  padding: 1rem 2rem;
+}
+.recipes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
